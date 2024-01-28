@@ -1,0 +1,261 @@
+*{
+  scroll-behavior: smooth;  
+}
+body{
+
+    background: black;
+}
+.loader {
+    border: 2px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 2px solid #3498db;
+    width: 10px;
+    height: 10px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}  
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/* sidebar */
+.instagram-title{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.sidebar-conatiner{
+display: block;
+border-right: 1px solid grey;
+height: 100vh;
+}
+.instagram-title .instagram-logo{
+    width: 60%;
+}
+.instagram-option-menu{
+    /* align-items: left; */
+    margin-left: 3vh;
+    list-style: none;
+}
+.instagram-option-menu li{
+    display: flex;
+    align-items:center ;
+color: white;
+margin: 3vh 0vh;
+font-size: 1.1rem;
+font-weight: bolder;
+cursor: pointer;
+text-align: left;
+}
+
+.instagram-option-menu li span{
+    margin: 0 2vh;
+}
+.icon{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+}
+.instagram-option-menu li:nth-last-child(){
+    margin-top: 10vh;
+}
+.profile-icon
+{
+    background-size: cover;
+     width: 5vh;
+     height: 5vh;
+     /* background-color: red; */
+     border-radius:50% ;
+     margin: 0 2vh;
+}
+.more-option{
+ position: relative;
+ top:5vh;
+}
+
+/* sidebar */
+.story-container{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+}
+.story-bar{
+    width: 90%;
+    height: 18vh;
+    position: relative;
+    top: 1vh;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    /* margin: 1vh 3vh; */
+    background-color: none;
+}
+.story-loader{
+    width: 12vh;
+    height: 12vh;
+    background-color: green;
+    border-radius: 50%;
+    margin: 0 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.story{
+    width: 11vh;
+    height: 11vh;
+    background-color: pink;
+    border-radius: 50%;
+}
+
+/* reel container */
+.reel-container{
+    width: 100%;
+    color: white;
+    background: black;
+    height: 110vh;
+}
+.reel-section{
+    width: 70%;
+    height: 95%;
+    background: black;
+    margin:auto;
+    position: relative;
+    top: 2vh;
+}
+.reel-header{
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.reel-profile-img{
+    width: 6vh;
+    height: 6vh;
+    margin: 0 2vh;
+    /* background-color: blue; */
+    background-size: cover;
+    border-radius: 50%;
+}
+.userid{
+    color: white;
+}
+.upload-time{
+    margin: 0 2vh;
+}
+
+.reel-more{
+    width: 50vh;
+    text-align: right;
+}
+.reel-video{
+    width: 100%;
+    height: 75vh;
+    background-size:contain ;
+    background-color: aqua;
+}
+.reel-likes{
+    text-align: left;
+    margin: 1vh 2vh;
+}
+.reel-likes span{
+    margin:0 1vh;
+}
+.reel-like-count{
+    text-align: left;
+    margin: 0 1vh;
+}
+.reel-view-comment{
+    margin: 1vh 1vh;
+    text-align: left;
+}
+.reel-comment-section{
+    margin: 1vh 1vh;
+    text-align: left;
+}
+.reel-comment-section input{
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.reel-comment-section input::placeholder{
+    color: white;
+    text-align: left;
+}
+
+/* suggestion css */
+.suggesion-container{
+    width: 100%;
+    height: 70vh;
+    background: black;
+}
+.suggestion-section{
+    width: 95%;
+    height: 95%;
+    margin:5vh 1vh;
+}
+.user-profile{
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: black;
+}
+.x2{
+    margin: 0 2vh;
+width: 8vh;
+height: 8vh;
+}
+.user-suggestion h3{
+/* display: flex; */
+color: grey;
+font-size: 1em;
+text-align: left;
+margin:0 2vh;
+}
+/* suggestion user  */
+.suggestion-user{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1vh 2vh;
+}
+.suggestion-user div{
+    margin:0 2vh;
+}
+.suggestion-user-section1{
+    
+}
+.suggestion-user a{
+    text-decoration: none;
+    margin: 0 2vh;
+    text-align: right;
+    width: 18vh;
+}
+.suggestion-user-profile{
+    width: 6vh;
+    height: 6vh;
+    background-size: cover;
+
+    background-color: black;
+    border-radius: 50%;
+
+}
+.suggestion-user p{
+    color: white;
+    position: relative;
+    right: 2%;
+}
+    
+.user-suggestion{
+    position: absolute;
+}

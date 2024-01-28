@@ -1,0 +1,265 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+width: 100%;
+height: 100vh;
+}
+.login-form-container{
+    width: 30%;
+    height: 90%;    
+    margin: auto;
+    /* background: red; */
+}
+.instagram-title{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instagram-title .logo{
+    width: 40vh;
+    height: 20vh;
+    background-color: transparent;
+}
+.login-form{
+    border: 1px solid grey;
+    width: 100%;
+    height:70%;
+    margin-top: 3vh;
+
+}
+.login-form input{
+    width: 45vh;
+    border-radius: 0.2vh;
+    margin:1vh 10%;
+    outline: none;
+    height: 6vh;
+    padding: 0 0vh 0 3vh ;
+    background:#e5e7eb;
+    border: none;
+}
+input::placeholder{
+    color: black;
+    /* margin: 0 2vh; */
+    position:relative;
+    /* left: 4vh;  */
+}
+.login-form button{
+    border: none;
+    margin: 2vh 10%;
+    width: 45vh;
+    height: 5vh;
+    background-color:#77A7FF ;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1vh;
+}
+.login-or-menu{
+    width: 100%;
+    height: 20vh;
+}
+.login-or-menu span{
+    width: 100%;
+    height: 2vh;
+    align-items: center;
+    background-color: grey;
+    border-radius: 2vh;
+    border: 1px solid black;
+}
+.or-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 2vh; */
+}
+.line{
+    width: 25vh;
+    border-radius: 2vh;
+    height: 0.3vh;
+    background: antiquewhite;
+    margin: 0 2vh;
+}
+
+.line p{
+    /* margin-left: 2vh; */
+}
+.facebook-btn{
+    width: 45vh;
+    height: 5vh;
+    color: #e5e7eb;
+    /* background-color: blue; */
+}
+.forget-btn{
+text-decoration: none;
+     
+}
+.login-signup-form{
+    width: 72%;
+    margin: auto;
+    height: 10vh;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.login-signup-form a{
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.login-download{
+    width: 100%;
+    /* height: 10vh; */
+    text-align: center;
+    margin-top:1vh ;
+}
+.download_btn{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 2vh 5vh;
+}
+
+.download_btn button{
+    width: 23vh;
+    height: 7vh;
+    /* background: blue; */
+    margin: 0 2vh;
+    border: none;
+    background-size: cover;
+}
+.download_btn .google-btn{
+    margin: 0 -7vh;
+    position: relative;
+    /* left: 0vh; */
+    background-image: url(../img/google_play.png);
+}
+.download_btn .microsoft-btn{
+    margin: 0 7vh;
+    height: 6vh;
+    background-image: url(../img/microsoft_store.png);
+}
+.signup-border{
+    border: 1px solid grey;
+    width: 70%;
+    padding: 1vh;
+    margin:1vh auto;
+
+}
+/* birthdaya page  */
+.birthday-section{
+    width: 50%;
+    height: 100%;
+    
+    background-color: white;
+    border: 1px solid grey;
+}
+.birthday-img{
+    width: 38vh;
+    margin: auto;
+    height: 20vh;
+    background-image: url('../img/birthdaylogo.png');
+    background-size: cover;
+}
+.google-btn,.microsoft-btn{
+    margin: 0 -4vh;
+}
+.container-signup{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+}
+.birthday-section h3{
+    text-align: center;
+
+}
+.birthday-section h4{
+    text-align: center;
+
+}
+.container{
+    padding: 15px;
+  }
+  select{
+    padding: 5px;
+  }
+  input.date{
+    width:50px;
+    padding: 5px;
+  }
+  .selectdate{
+    text-align: center;
+  }
+  select{
+    width: 15vh;
+    height: 6vh;
+    border-radius: 1vh;
+    margin: 2vh 2vh;
+
+  }
+  .birthday-detail{
+    width: 70%;
+    margin:0 auto;
+
+  }
+  .container-signup button{
+margin: 3vh 0;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 1vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .go-back{
+    position: relative;
+    left: 45%;
+    transform: translateX(-50%);
+  text-decoration: none;
+  }
+.private-instrucation{
+    margin: 8vh 0;
+}
+
+  /* public section  */
+  .public-section{
+    height: 100vh;
+    /* margin: 3vh 0; */
+  }
+  .private-section{
+    display:flex;
+    display: flex;
+    width: 60vh;
+    border-bottom: 1px solid black;
+    margin: 5vh;
+    height: 11vh;
+  }
+  .lable-private{
+    /* margin-right: 10vh; */
+    height: 0px;
+    width: 0px;
+    color: black;
+    /* background-color: #f5af09; */
+    display: block;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  .private-section div{
+    width: 100%;
+  }
+  .public{
+    margin-left: 49vh;
+  }
+  #private{
+    position:relative;
+    left: 90%;
+    /* right: 10%; */
+  }
+  

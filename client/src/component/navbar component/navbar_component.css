@@ -1,0 +1,344 @@
+.add-reel-container{
+    width: 100%;
+    height: 100%;
+    /* opacity: 2; */
+    z-index: 1000;
+    /* filter: blur(5px); */
+    overflow: hidden;
+    position: absolute;
+}
+.add-reel-section{
+    width: 60vh;
+    height: 70vh;
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    /* top: 50%; */
+    /* left: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-image: url('../../img/cloud-upload.webp');
+    z-index: 100;
+}
+.exit-icon{
+width: 100%;
+text-align: right;
+position:relative;
+cursor: pointer;
+right: 5vh;
+top: 3vh;
+}
+input[type="file"]{
+    display: none;
+}
+.add-reel-label{
+    color: white;
+    height: 60px;
+    width: 250px;
+    background-color: #f5af09;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upload-reel-post-btn{
+    width: 30vh;
+    height: 5vh;
+    background-color: blue;
+}
+.reel-profile-img{
+    background-color: grey;
+}
+.addpost-header{
+    width: 50%;
+    left: 23.2%;
+    position: relative;
+    height: 4vh;
+    background-color: black;
+}
+.addpost-main{
+    width: 100%;
+    background-color: none;
+    color: white;
+    height: 70vh;
+    z-index: 100;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.reel-detail-container{
+    display: flex;
+    height: 100%;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.reel-detail{
+    width: 45vh;
+    height: 100%;
+    background-color: black;
+}
+.user-profile{
+    width: 100%;
+    height: 6vh;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.user-profile-username{
+    color:aliceblue;
+}
+.user-profile-img{
+    width:6vh;
+    height: 6vh;
+    margin: 0 2vh;
+    background-size: cover;
+    border-radius:50% ;
+    background-color: grey;
+}
+.reel-detail .input-caption{
+    background-color: black;
+    width: 100%;
+    height: 40vh;
+    outline: none;
+    border: none;
+    color: white;
+}
+.input-caption::placeholder{
+    color: white;
+}
+.user-profile button{
+    margin-left: 10vh;
+    background-color: blue;
+    border: none;
+    color: white;
+    width: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+}
+.input-location{
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+    outline: none;
+    border: none;
+    color: white;
+    margin: 0.2vh 0;
+}
+.input-location::placeholder{
+    color: antiquewhite;
+}
+
+/* comment section */
+
+.add-comment-container{
+    width: 100%;
+    height:100%;
+    position:absolute ;
+    top: 0;
+    overflow: hidden;
+    background:none;
+}
+.comment-addpost-main{
+    width: 80%;
+    height: 90%;
+    background: transparent;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+.post-detail{
+    width: 33%;
+    border: 1px solid grey;
+    height: 100%;
+    background-size: cover;
+    background: white;
+    z-index: 344;
+}
+.comment-detail{width: 45%;
+    border: 1px solid grey;
+    height: 100%;
+    background: black;
+    color: white;
+    z-index: 344;}
+
+    .user-comment{
+        width: 100%;
+        height: 70%;
+        overflow-x: auto;
+        /* background: green; */
+    }
+    .m2{
+        position: relative;
+        top: 1vh;
+        width: 100%;
+        margin: 2vh 0;
+        color: white;
+    }
+    .comment-message{
+        width: 68%;
+
+margin: 0 1vh;   
+     color: white;
+    }
+    .reel-video{
+    background-size: cover;
+    }
+
+    /* notifcation  */
+    .notification-container{
+        width: 70vh;
+        height: 100vh;
+        position: absolute;
+        z-index: 1000;
+        left: 15%;
+        background-color: black;
+        border: 1px solid grey;
+    }
+    .notification-section{
+width: 100%;
+overflow-x: scroll;
+height: 90%;
+    }
+    .notification-post{
+        width: 7vh;
+        height: 7vh;
+        /* background-color: red; */
+    }
+    .Notification-follow-btn{
+        color: white;
+background: blue;
+border-radius: 1vh;
+padding: 2vh;
+width: 20vh;
+height: 5vh;
+    }
+
+
+    /* story ection */
+
+    .story-section-container{
+width: 100%;
+height: 100%;
+display: grid;
+background-color: black;
+place-items: center ;
+position: absolute;
+z-index: 100;
+    }
+    .story-section{
+        width: 35%;
+        height: 94%;
+        background: none;
+    }
+    .story-line{
+        width: 100%;
+        height: 1vh;
+        background-color: none;
+        display: flex;
+        margin-top: 1vh;
+    }
+    .story-n-line{
+        width: 100%;
+        height: .5vh;
+        background-color: grey;
+        border-radius: 2vh;
+        margin: 0 0.2vh;
+        border: 1px solid grey;
+    }
+    .story-n-line .smooth{
+        /* width: 99%; */
+        transition: all 1s ease;
+        height: .5vh;
+        background: white;
+    }
+    .story-n-line div{
+        height: .5vh;
+        background: white;
+    }
+    .story-user-profile{
+        width: 98%;
+        display: flex;
+        height: 10vh;
+        margin: 1vh 1vh;
+    }
+    .story-profile{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-color: none;
+    }
+    .story-profilephoto{
+        width: 8vh;
+        height: 8vh;
+        border-radius: 50%;
+
+        /* background-color: green; */
+    }
+    .story-username, .story-time{color: white;
+    margin: 0 1.4vh;}
+    .story-more-option{
+        width: 39%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .story-footer{
+        position: relative;
+        bottom:-70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 10vh;
+
+    }
+    .story-footer input{
+        width: 50vh;
+        height: 7vh;
+        border-radius: 3vh;
+        border: 1px solid white;
+        background-color: transparent;
+        outline: none;
+        padding: 0 1vh;
+    }
+    .story-footer input::placeholder{
+        /* margin: 0 2vh;/ */
+    }
+
+    button{
+        cursor: pointer;
+    }
+    .story-exit-icon{
+        cursor: pointer;
+        right: 10vh;
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    right: 5vh;
+    z-index: 200;
+    top: 3vh;
+    }
+    .story-share-btn{
+        width: 51%;
+        height: 5vh;
+        background: skyblue;
+        position: absolute;
+        left: 50%;
+        display: flex;
+        justify-content: center;
+        transform: translateX(-50%);
+    background-color: black;
+    }
+    .story-share-btn button{
+        width: 20vh;
+        height: 5vh;
+        background-color: aqua;
+    }
